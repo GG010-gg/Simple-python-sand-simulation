@@ -2,6 +2,7 @@
 Il y a probablement des optimisations supplémentaires à effectuer.
 Prévenez moi s'il y a des bugs.
 En cas d'utilisation (peu probable), précisez la source initiale du code.
+Ceci est la version avec des listes imbriquées, c'est juste plus lisible
 """
 import pygame as py
 import random
