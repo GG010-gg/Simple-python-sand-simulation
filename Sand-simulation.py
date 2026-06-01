@@ -15,7 +15,7 @@ MAPVAL=[[(0,0,0),0,0]]*(SizeY*SizeX)
 #0: inactif 1 : actif
 Actifs=[]
 font=py.font.Font(None,15)
-screen=py.display.set_mode((min(900,SizeX*TPix+200),min(600,SizeY*TPix+200)))
+screen=py.display.set_mode((min(900,SizeX*TPix+200),min(600,SizeY*TPix+20)))
 py.display.set_caption("pygame")
 screen.fill((0,0,0))
 py.draw.rect(screen,(150,150,150),(0,0,SizeX*TPix+20,SizeY*TPix+20))
